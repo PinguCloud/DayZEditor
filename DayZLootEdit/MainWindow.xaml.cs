@@ -123,5 +123,10 @@ namespace DayZLootEdit
                     break;
             }
         }
+
+        private void PercBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
