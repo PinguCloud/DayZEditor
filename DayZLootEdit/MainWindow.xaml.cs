@@ -59,6 +59,7 @@ namespace DayZLootEdit
             foreach (LootType loot in LootList.SelectedItems)
             {
                 loot.SetNominal(percentage);
+                loot.SetMin(percentage);
             }
 
             LootList.Items.Refresh();

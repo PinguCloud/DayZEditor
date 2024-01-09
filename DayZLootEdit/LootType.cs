@@ -155,6 +155,10 @@ namespace DayZLootEdit
         {
             Nominal = (int) Math.Round(Nominal / 100.0 * percentage);
         }
+        public void SetMin(int percentage)
+        {
+            Min = (int)Math.Round(Min / 100.0 * percentage);
+        }
 
         public void RemoveType()
         {
